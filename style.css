@@ -1,0 +1,64 @@
+body {
+    background-image: url(djngl.jpg);
+    background-size: cover;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: anim1 10s infinite 
+}
+
+@keyframes anim1 {
+0% {left: 0px;top: 0px; }
+25% {left: 90%; top: 0px;}
+50% {left: 90%;top: 800px;}
+75% {left: 0px; top:800px;}
+100% {left: 0px;top: 0px;}
+}
+
+.box {
+    width: 100px;
+    margin: 15% auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    animation: anim2 3s infinite;
+    position: relative;
+}
+
+.dow1 {
+    background-color: wheat;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.dow2 {
+    background-color: wheat;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.dow3 {
+    background-color: wheat;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.dow4 {
+    background-color: wheat;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+@keyframes anim2 {
+
+}
